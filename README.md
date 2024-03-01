@@ -8,6 +8,8 @@
   * Logstash
 
 * Download
+* Acesso web
+* Fontes
 
 ## Elastic stack
 
@@ -25,6 +27,9 @@ O Kibana é uma interface gráfica que permite a conexão com qualquer aplicaç�
 
 O Logstash é um pipeline gratuito que transforma e prepara dinamicamente os dados. Pode se conectar com diversas saídas 
 
+## Download
+
+## Acesso web
 
 ## Fontes
 
