@@ -17,6 +17,8 @@ O Elastic Stack, também conhecido por ELK Stack, é um conjunto de ferramentas 
 
 É composto por quatro componentes principais: Elasticsearch, Kibana, Logstash e Beats (neste documento falaremos apenas dos três primeiros).
 
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/elastic-stack.png)
+
 O Elastic é uma ferramenta flexível e personalizável para atender às necessidades especifícas de diferentes cenários, sendo uma escolha popular para projetos com grandes volumes de dados.
 
 #### 1 - Elasticsearch
@@ -25,17 +27,27 @@ O Elasticsearch é um mecanismo de busca distribuído e de código aberto, proje
 
 O Elasticsearch é particularmente utilizado em casos de uso como pesquisa textual, análise de logs, monitoramento de sistemas e análise de dados, oferecendo escalabilidade, flexibilidade e uma poderosa capacidade de pesquisa e indexação. É comumente empregado em ambientes empresariais para facilitar a busca e análise de dados em larga escala.
 
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/elasticsearch-api.png)
+
 #### 2 - Kibana
 
 O Kibana é uma interface gráfica de código aberto que pode se conectar com qualquer aplicação (banco de dados, API ou servidor). Sua função é facilitar a visualização, exploração e interpretação dos dados armazenados na aplicação, permitindo a criação de dashboard iterativos e gráficos personalizados.
 
 É amplamente usado em cenários onde a análise visual de dados é essencial, como o monitoramento de sistemas, análise de logs, métricas de desempenho e investigação de eventos em tempo real.
 
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-1.jpeg)
+
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-2.webp)
+
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-3.jpg)
+
 #### 3 - Logstash
 
 O Logstash é uma ferramento de processamento de dados de código aberto, cuja principal função é facilitar a coleta, transformação e envio de dados de diversas fontes para serem armazenados. Pode se conectar a diversos serviços, sendo altamente flexível.
 
 O Logstash é utilizado em ambientes onde a coleta e processamento de dados de diferentes fontes são essenciais, como análise de logs, monitoramento de sistemas e ingestão de dados para análise em tempo real. Seu uso é popular para a integração em pipelines de dados complexos.
+
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/logstash.png)
 
 ## Download
 
@@ -47,7 +59,7 @@ Kibana: https://www.elastic.co/pt/downloads/kibana
 
 Logstash: https://www.elastic.co/pt/downloads/logstash
 
-Para mais detalhes da instalação do Elasticsearch e do Kibana acessar: 
+Para mais detalhes da instalação do Elasticsearch e do Kibana acessar: [instalacao-windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md)
 
 ## Acesso web
 
