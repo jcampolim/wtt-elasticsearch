@@ -9,7 +9,6 @@
 
 * Download
 * Acesso web
-* Fontes
 
 ## Elastic stack
 
