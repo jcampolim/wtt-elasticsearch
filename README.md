@@ -4,8 +4,8 @@
 
 * Elastic Stack
   * Elasticsearch
-  * Kibana
   * Logstash
+  * Kibana
 
 * Download
 * Acesso web
@@ -22,13 +22,21 @@ O Elastic é uma ferramenta flexível e personalizável para atender às necessi
 
 #### 1 - Elasticsearch
 
-O Elasticsearch é um mecanismo de busca distribuído e de código aberto, projetado para armazenar, buscar e analisar grandes volumes de dados em tempo real e de maneira eficiente. Ele faz parte do Elastic Stack, sendo fundamental para a indexação e recuperação eficiente de informações em conjuntos de dados distribuídos. 
+O Elasticsearch é um mecanismo de busca distribuído e de código aberto, projetado para armazenar, buscar e analisar grandes volumes de dados em tempo real e de maneira eficiente. Funciona como um banco de dados não relacional. Ele faz parte do Elastic Stack, sendo fundamental para a indexação e recuperação eficiente de informações em conjuntos de dados distribuídos. 
 
 O Elasticsearch é particularmente utilizado em casos de uso como pesquisa textual, análise de logs, monitoramento de sistemas e análise de dados, oferecendo escalabilidade, flexibilidade e uma poderosa capacidade de pesquisa e indexação. É comumente empregado em ambientes empresariais para facilitar a busca e análise de dados em larga escala.
 
 ![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/elasticsearch-api.png)
 
-#### 2 - Kibana
+#### 2 - Logstash
+
+O Logstash é uma ferramento de processamento de dados de código aberto, cuja principal função é facilitar a coleta, transformação e envio de dados de diversas fontes para serem armazenados. Pode se conectar a diversos serviços, sendo altamente flexível.
+
+O Logstash é utilizado em ambientes onde a coleta e processamento de dados de diferentes fontes são essenciais, como análise de logs, monitoramento de sistemas e ingestão de dados para análise em tempo real. Seu uso é popular para a integração em pipelines de dados complexos.
+
+![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/logstash.png)
+
+#### 3 - Kibana
 
 O Kibana é uma interface gráfica de código aberto que pode se conectar com qualquer aplicação (banco de dados, API ou servidor). Sua função é facilitar a visualização, exploração e interpretação dos dados armazenados na aplicação, permitindo a criação de dashboard iterativos e gráficos personalizados.
 
@@ -40,23 +48,17 @@ O Kibana é uma interface gráfica de código aberto que pode se conectar com qu
 
 ![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-3.jpg)
 
-#### 3 - Logstash
-
-O Logstash é uma ferramento de processamento de dados de código aberto, cuja principal função é facilitar a coleta, transformação e envio de dados de diversas fontes para serem armazenados. Pode se conectar a diversos serviços, sendo altamente flexível.
-
-O Logstash é utilizado em ambientes onde a coleta e processamento de dados de diferentes fontes são essenciais, como análise de logs, monitoramento de sistemas e ingestão de dados para análise em tempo real. Seu uso é popular para a integração em pipelines de dados complexos.
-
-![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/logstash.png)
-
 ## Download
 
 Links para a instalação: 
 
-Elasticsearch: https://www.elastic.co/pt/downloads/elasticsearch
+* Elasticsearch: https://www.elastic.co/pt/downloads/elasticsearch
 
-Kibana: https://www.elastic.co/pt/downloads/kibana
+* Kibana: https://www.elastic.co/pt/downloads/kibana
 
-Logstash: https://www.elastic.co/pt/downloads/logstash
+* Logstash: https://www.elastic.co/pt/downloads/logstash
+
+
 
 Para mais detalhes da instalação do Elasticsearch e do Kibana acessar: [instalacao-windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md)
 
