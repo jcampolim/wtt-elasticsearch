@@ -46,13 +46,11 @@ O Kibana é uma interface gráfica de código aberto que pode se conectar com qu
 
 ![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-1.jpeg)
 
-![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-2.webp)
-
 ![](https://github.com/jcampolim/wtt-elasticsearch/blob/main/img/kibana-3.jpg)
 
 ## Download
 
-Links para a instalação: 
+É possível utilizar as ferramentas apresentadas fazendo o download de cada uma e seguindo o passo a passo para a instalação do Elasticsearch e do Kibana: [instalacao-windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md).
 
 * Elasticsearch: https://www.elastic.co/pt/downloads/elasticsearch
 
@@ -60,9 +58,4 @@ Links para a instalação:
 
 * Logstash: https://www.elastic.co/pt/downloads/logstash
 
-
-
-Para mais detalhes da instalação do Elasticsearch e do Kibana acessar: [instalacao-windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md)
-
-## Acesso web
-
+Também é possível usar o Elastic Stack pelo site [](elastic.co), porém ao se cadastrar você tem acesso há apenas 15 dias grátis.
